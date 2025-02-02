@@ -1,0 +1,61 @@
+# This script demonstrates basic Python concepts used in machine learning and AI
+
+# Section 1: Variables and Data Types
+# Define some basic variables
+x = 5  # Integer
+y = 3.14  # Floating point
+name = "Yuji"  # String
+is_active = True  # Boolean
+
+# Print variables
+print("Defined Variables:")
+print("Integer:", x)
+print("Floating Point:", y)
+print("String:", name)
+print("Boolean:", is_active)
+
+# Section 2: Basic Operations
+# Perform and print arithmetic operations
+sum = x + 10
+product = y * 2
+division = x / 2
+print("\nBasic Operations:")
+print("Sum of x and 10:", sum)
+print("Product of y and 2:", product)
+print("Division of x by 2:", division)
+
+# Section 3: Control Structures
+# Using if statement and loops
+print("\nControl Structures:")
+if x > 0:
+    print(x, "is positive")
+
+# For loop example
+print("For Loop:")
+for i in range(5):
+    print(i)
+
+# While loop example
+print("While Loop:")
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+
+# Section 4: Functions
+# Define and call a function
+def greet(name):
+    return "Hello " + name + "!"
+message = greet("Yuji")
+print("\nFunction Output:")
+print(message)
+
+# Section 5: Lists and Dictionaries
+# Working with collections
+fruits = ["apple", "banana", "cherry"]
+person = {"name": "Yuji", "age": 25}
+print("\nLists and Dictionaries:")
+print("Second fruit in list:", fruits[1])
+print("Name from dictionary:", person["name"])
+
+# End of script
